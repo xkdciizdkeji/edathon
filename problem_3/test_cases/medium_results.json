@@ -1,0 +1,165 @@
+{
+  "num_expressions": 20,
+  "num_changes": 4,
+  "has_cycles": false,
+  "timing": {
+    "build_graph": 0.00012420001439750195,
+    "initialize": 0.00024309998843818903
+  },
+  "change_results": [
+    {
+      "description": "修改 var1",
+      "changed_vars": {
+        "var1": 5.538
+      },
+      "dirty_nodes": [
+        "node11",
+        "node3",
+        "node0",
+        "node14",
+        "node10",
+        "var1",
+        "node8",
+        "node4"
+      ],
+      "recompute_order": [
+        "var1",
+        "node0",
+        "node3",
+        "node4",
+        "node14",
+        "node8",
+        "node10",
+        "node11"
+      ],
+      "nodes_recomputed": 8,
+      "total_nodes": 20,
+      "time_ms": 0.156999914906919
+    },
+    {
+      "description": "修改 var2",
+      "changed_vars": {
+        "var2": 0.47
+      },
+      "dirty_nodes": [
+        "node11",
+        "node9",
+        "node12",
+        "node6",
+        "var2",
+        "node5",
+        "node14",
+        "node8",
+        "node2",
+        "node4"
+      ],
+      "recompute_order": [
+        "var2",
+        "node2",
+        "node4",
+        "node5",
+        "node6",
+        "node12",
+        "node14",
+        "node8",
+        "node9",
+        "node11"
+      ],
+      "nodes_recomputed": 10,
+      "total_nodes": 20,
+      "time_ms": 0.17300003673881292
+    },
+    {
+      "description": "修改 var3",
+      "changed_vars": {
+        "var3": 1.745
+      },
+      "dirty_nodes": [
+        "node11",
+        "node1",
+        "node9",
+        "node12",
+        "var3",
+        "node3",
+        "node6",
+        "node0",
+        "node5",
+        "node14",
+        "node10",
+        "node13",
+        "node8",
+        "node2"
+      ],
+      "recompute_order": [
+        "var3",
+        "node0",
+        "node1",
+        "node2",
+        "node3",
+        "node10",
+        "node13",
+        "node5",
+        "node6",
+        "node12",
+        "node14",
+        "node8",
+        "node9",
+        "node11"
+      ],
+      "nodes_recomputed": 14,
+      "total_nodes": 20,
+      "time_ms": 0.21810003090649843
+    },
+    {
+      "description": "同时修改 var4, var1, var3",
+      "changed_vars": {
+        "var4": 3.809,
+        "var1": 4.453,
+        "var3": 3.424
+      },
+      "dirty_nodes": [
+        "node11",
+        "node1",
+        "node9",
+        "node12",
+        "var3",
+        "node3",
+        "node7",
+        "var4",
+        "node0",
+        "node14",
+        "node6",
+        "node5",
+        "node10",
+        "node13",
+        "var1",
+        "node8",
+        "node2",
+        "node4"
+      ],
+      "recompute_order": [
+        "var3",
+        "var4",
+        "var1",
+        "node1",
+        "node7",
+        "node0",
+        "node4",
+        "node2",
+        "node3",
+        "node13",
+        "node10",
+        "node5",
+        "node6",
+        "node12",
+        "node14",
+        "node8",
+        "node9",
+        "node11"
+      ],
+      "nodes_recomputed": 18,
+      "total_nodes": 20,
+      "time_ms": 0.22350007202476263
+    }
+  ]
+}

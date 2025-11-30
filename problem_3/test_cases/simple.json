@@ -1,0 +1,33 @@
+{
+  "expressions": {
+    "var1": "5.0",
+    "A": "var1 + 2",
+    "B": "A / 2",
+    "C": "(B > 1.0) ? var1 : A"
+  },
+  "base_vars": [
+    "var1"
+  ],
+  "derived_vars": [
+    "A",
+    "B",
+    "C"
+  ],
+  "base_values": {
+    "var1": 5.0
+  },
+  "changes": [
+    {
+      "description": "修改 var1 为 3.0",
+      "changed_vars": {
+        "var1": 3.0
+      }
+    },
+    {
+      "description": "修改 var1 为 0.5",
+      "changed_vars": {
+        "var1": 0.5
+      }
+    }
+  ]
+}

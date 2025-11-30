@@ -1,0 +1,79 @@
+{
+  "num_expressions": 10,
+  "num_changes": 3,
+  "has_cycles": false,
+  "timing": {
+    "build_graph": 0.00010229996405541897,
+    "initialize": 0.00010130007285624743
+  },
+  "change_results": [
+    {
+      "description": "修改 var1（只影响 DAG1）",
+      "changed_vars": {
+        "var1": 5.0
+      },
+      "dirty_nodes": [
+        "A",
+        "B",
+        "var1",
+        "C"
+      ],
+      "recompute_order": [
+        "var1",
+        "A",
+        "B",
+        "C"
+      ],
+      "nodes_recomputed": 4,
+      "total_nodes": 10,
+      "time_ms": 0.09540002793073654
+    },
+    {
+      "description": "修改 var2（只影响 DAG2）",
+      "changed_vars": {
+        "var2": 10.0
+      },
+      "dirty_nodes": [
+        "Y",
+        "X",
+        "var2"
+      ],
+      "recompute_order": [
+        "var2",
+        "X",
+        "Y"
+      ],
+      "nodes_recomputed": 3,
+      "total_nodes": 10,
+      "time_ms": 0.06610003765672445
+    },
+    {
+      "description": "同时修改 var1 和 var3",
+      "changed_vars": {
+        "var1": 2.0,
+        "var3": 4.0
+      },
+      "dirty_nodes": [
+        "var1",
+        "Q",
+        "A",
+        "var3",
+        "B",
+        "C",
+        "P"
+      ],
+      "recompute_order": [
+        "var1",
+        "var3",
+        "A",
+        "P",
+        "B",
+        "Q",
+        "C"
+      ],
+      "nodes_recomputed": 7,
+      "total_nodes": 10,
+      "time_ms": 0.08860009256750345
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "expressions": {
+    "var1": "1.0",
+    "A": "var1 + 2",
+    "B": "A * 2",
+    "C": "B - 1",
+    "var2": "3.0",
+    "X": "var2 * 3",
+    "Y": "X + 5",
+    "var3": "2.0",
+    "P": "var3 / 2",
+    "Q": "P * P"
+  },
+  "base_vars": [
+    "var1",
+    "var2",
+    "var3"
+  ],
+  "derived_vars": [
+    "A",
+    "B",
+    "C",
+    "X",
+    "Y",
+    "P",
+    "Q"
+  ],
+  "base_values": {
+    "var1": 1.0,
+    "var2": 3.0,
+    "var3": 2.0
+  },
+  "changes": [
+    {
+      "description": "修改 var1（只影响 DAG1）",
+      "changed_vars": {
+        "var1": 5.0
+      }
+    },
+    {
+      "description": "修改 var2（只影响 DAG2）",
+      "changed_vars": {
+        "var2": 10.0
+      }
+    },
+    {
+      "description": "同时修改 var1 和 var3",
+      "changed_vars": {
+        "var1": 2.0,
+        "var3": 4.0
+      }
+    }
+  ]
+}

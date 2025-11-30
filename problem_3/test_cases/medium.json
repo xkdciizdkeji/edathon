@@ -1,0 +1,83 @@
+{
+  "expressions": {
+    "var1": "6.43",
+    "var2": "0.348",
+    "var3": "2.823",
+    "var4": "2.31",
+    "var5": "7.391",
+    "node0": "((0.83 * var5 / var1) - 0.8 * var3)",
+    "node1": "(1.71 * var5 * var3)",
+    "node2": "(var2 * 0.65 * node1)",
+    "node3": "((var5 * node1) * var1)",
+    "node4": "((var4 + var2) / var1)",
+    "node5": "sqrt(abs(node2))",
+    "node6": "((1.19 * node5 - 1.89 * var2) * var3)",
+    "node7": "var4 * 2.31",
+    "node8": "((node6 * node0) - var4)",
+    "node9": "node6 * 3.86",
+    "node10": "((1.24 * node1 - node0) - var4)",
+    "node11": "((node8 + node4) + 1.33 * var2)",
+    "node12": "cos(node5) + var2",
+    "node13": "cos(node1)",
+    "node14": "(node5 >= 1.96) ? var1 : node5"
+  },
+  "base_vars": [
+    "var1",
+    "var2",
+    "var3",
+    "var4",
+    "var5"
+  ],
+  "derived_vars": [
+    "node0",
+    "node1",
+    "node2",
+    "node3",
+    "node4",
+    "node5",
+    "node6",
+    "node7",
+    "node8",
+    "node9",
+    "node10",
+    "node11",
+    "node12",
+    "node13",
+    "node14"
+  ],
+  "base_values": {
+    "var1": 6.43,
+    "var2": 0.348,
+    "var3": 2.823,
+    "var4": 2.31,
+    "var5": 7.391
+  },
+  "changes": [
+    {
+      "description": "修改 var1",
+      "changed_vars": {
+        "var1": 5.538
+      }
+    },
+    {
+      "description": "修改 var2",
+      "changed_vars": {
+        "var2": 0.47
+      }
+    },
+    {
+      "description": "修改 var3",
+      "changed_vars": {
+        "var3": 1.745
+      }
+    },
+    {
+      "description": "同时修改 var4, var1, var3",
+      "changed_vars": {
+        "var4": 3.809,
+        "var1": 4.453,
+        "var3": 3.424
+      }
+    }
+  ]
+}
