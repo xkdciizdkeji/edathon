@@ -1,0 +1,13 @@
+{
+  "name": "mux2_a_rise",
+  "description": "2选1MUX，A输入上升沿(S=0选择A)",
+  "input_transitions": {
+    "A": "rise"
+  },
+  "expected_dominant": [
+    "MN_A",
+    "MP_A",
+    "MP_OUT"
+  ],
+  "difficulty": "hard"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "aoi21_ab_rise",
+  "description": "AOI21门，A和B从0→1(C=0)，输出1→0，预期MN1和MN2为dominant",
+  "input_transitions": {
+    "A": "rise",
+    "B": "rise"
+  },
+  "expected_dominant": [
+    "MN1",
+    "MN2"
+  ],
+  "difficulty": "hard"
+}

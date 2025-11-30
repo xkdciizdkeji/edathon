@@ -1,0 +1,11 @@
+{
+  "name": "simple_inverter_rise",
+  "description": "简单反相器，输入上升沿(0→1)",
+  "input_transitions": {
+    "IN": "rise"
+  },
+  "expected_dominant": [
+    "MN1"
+  ],
+  "difficulty": "easy"
+}

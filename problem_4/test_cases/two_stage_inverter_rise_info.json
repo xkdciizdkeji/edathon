@@ -1,0 +1,12 @@
+{
+  "name": "two_stage_inverter_rise",
+  "description": "两级反相器，输入上升沿(0→1)，预期MN1和MP2为dominant",
+  "input_transitions": {
+    "IN": "rise"
+  },
+  "expected_dominant": [
+    "MN1",
+    "MP2"
+  ],
+  "difficulty": "easy"
+}

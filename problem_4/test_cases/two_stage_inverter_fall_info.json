@@ -1,0 +1,12 @@
+{
+  "name": "two_stage_inverter_fall",
+  "description": "两级反相器，输入下降沿(1→0)，预期MP1和MN2为dominant",
+  "input_transitions": {
+    "IN": "fall"
+  },
+  "expected_dominant": [
+    "MP1",
+    "MN2"
+  ],
+  "difficulty": "easy"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "nor2_both_fall",
+  "description": "2输入NOR门，A和B都从1→0(输出0→1)，预期MP1和MP2为dominant",
+  "input_transitions": {
+    "A": "fall",
+    "B": "fall"
+  },
+  "expected_dominant": [
+    "MP1",
+    "MP2"
+  ],
+  "difficulty": "medium"
+}

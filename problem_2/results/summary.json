@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "test_case": "complex.json",
+      "total_nets": 14,
+      "routed_nets": 6,
+      "failed_nets": 8,
+      "total_length": 4956.670407442007,
+      "total_turns": 24,
+      "runtime_seconds": 4.577615737915039
+    },
+    {
+      "test_case": "hard.json",
+      "total_nets": 11,
+      "routed_nets": 6,
+      "failed_nets": 5,
+      "total_length": 3574.2348988926033,
+      "total_turns": 27,
+      "runtime_seconds": 1.2795019149780273
+    },
+    {
+      "test_case": "large.json",
+      "total_nets": 17,
+      "routed_nets": 5,
+      "failed_nets": 12,
+      "total_length": 6744.913850276842,
+      "total_turns": 14,
+      "runtime_seconds": 5.422531843185425
+    },
+    {
+      "test_case": "medium.json",
+      "total_nets": 8,
+      "routed_nets": 5,
+      "failed_nets": 3,
+      "total_length": 2649.356343546197,
+      "total_turns": 12,
+      "runtime_seconds": 2.74027681350708
+    },
+    {
+      "test_case": "simple.json",
+      "total_nets": 4,
+      "routed_nets": 2,
+      "failed_nets": 2,
+      "total_length": 771.7414837757988,
+      "total_turns": 7,
+      "runtime_seconds": 0.7275876998901367
+    }
+  ],
+  "summary": {
+    "total_routed": 24,
+    "total_nets": 54,
+    "overall_success_rate": 44.44444444444444,
+    "total_runtime": 14.747514009475708
+  }
+}

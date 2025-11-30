@@ -1,0 +1,13 @@
+{
+  "name": "oai22_ac_rise",
+  "description": "OAI22门，A和C从0→1(B=D=0)，输出1→0，预期MN1和MN3为dominant",
+  "input_transitions": {
+    "A": "rise",
+    "C": "rise"
+  },
+  "expected_dominant": [
+    "MN1",
+    "MN3"
+  ],
+  "difficulty": "hard"
+}

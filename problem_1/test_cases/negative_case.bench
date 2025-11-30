@@ -1,0 +1,13 @@
+# Three-valued logic circuit (BENCH format)
+
+INPUT(i0)
+INPUT(i1)
+INPUT(i2)
+
+OUTPUT(o0)
+OUTPUT(o1)
+OUTPUT(o2)
+
+o0 = MAX(i1, i0)
+o1 = MOD3_ADD(i1, i0)
+o2 = MOD3_ADD(MIN(i0, i1), i2)

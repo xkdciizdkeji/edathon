@@ -1,0 +1,11 @@
+{
+  "name": "simple_inverter_fall",
+  "description": "简单反相器，输入下降沿(1→0)",
+  "input_transitions": {
+    "IN": "fall"
+  },
+  "expected_dominant": [
+    "MP1"
+  ],
+  "difficulty": "easy"
+}

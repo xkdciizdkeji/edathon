@@ -1,0 +1,22 @@
+# Three-valued logic circuit (BENCH format)
+
+INPUT(i0)
+INPUT(i1)
+INPUT(i2)
+INPUT(i3)
+INPUT(i4)
+INPUT(i5)
+INPUT(i6)
+INPUT(i7)
+INPUT(i8)
+INPUT(i9)
+
+OUTPUT(o0)
+OUTPUT(o1)
+OUTPUT(o2)
+OUTPUT(o3)
+
+o0 = MOD3_ADD(MOD3_MUL(i1, i9), i5)
+o1 = MOD3_MUL(MOD3_MUL(i0, i7), i7)
+o2 = MOD3_ADD(MOD3_ADD(i4, i2), i9)
+o3 = MOD3_ADD(MOD3_ADD(MOD3_MUL(i1, i9), i5), i8)

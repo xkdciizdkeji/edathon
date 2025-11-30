@@ -1,0 +1,15 @@
+{
+  "name": "large_combinational",
+  "description": "大型组合逻辑电路，A和B从0→1",
+  "input_transitions": {
+    "A": "rise",
+    "B": "rise"
+  },
+  "expected_dominant": [
+    "MN1_1",
+    "MN1_2",
+    "MN2_1",
+    "MP4_1"
+  ],
+  "difficulty": "expert"
+}

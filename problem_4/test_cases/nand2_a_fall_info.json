@@ -1,0 +1,11 @@
+{
+  "name": "nand2_a_fall",
+  "description": "2输入NAND门，A从1→0(B保持1)，输出0→1，预期MP1为dominant",
+  "input_transitions": {
+    "A": "fall"
+  },
+  "expected_dominant": [
+    "MP1"
+  ],
+  "difficulty": "medium"
+}

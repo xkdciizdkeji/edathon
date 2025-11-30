@@ -1,0 +1,13 @@
+# Three-valued logic circuit (BENCH format)
+
+INPUT(i0)
+INPUT(i1)
+INPUT(i2)
+
+OUTPUT(o0)
+OUTPUT(o1)
+OUTPUT(o2)
+
+o0 = MIN(i0, i1)
+o1 = MAX(i0, i2)
+o2 = MIN(MIN(i0, i1), MAX(i0, i2))

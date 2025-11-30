@@ -1,0 +1,14 @@
+{
+  "name": "buffer_chain_4stage",
+  "description": "4级缓冲器链，输入上升沿，预期交替的MN/MP为dominant",
+  "input_transitions": {
+    "IN": "rise"
+  },
+  "expected_dominant": [
+    "MN1",
+    "MP2",
+    "MN3",
+    "MP4"
+  ],
+  "difficulty": "medium"
+}

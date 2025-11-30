@@ -1,0 +1,83 @@
+{
+  "total_cases": 13,
+  "cases": [
+    {
+      "name": "simple_inverter_rise",
+      "description": "简单反相器，输入上升沿(0→1)",
+      "difficulty": "easy",
+      "expected_dominant_count": 1
+    },
+    {
+      "name": "simple_inverter_fall",
+      "description": "简单反相器，输入下降沿(1→0)",
+      "difficulty": "easy",
+      "expected_dominant_count": 1
+    },
+    {
+      "name": "two_stage_inverter_rise",
+      "description": "两级反相器，输入上升沿(0→1)，预期MN1和MP2为dominant",
+      "difficulty": "easy",
+      "expected_dominant_count": 2
+    },
+    {
+      "name": "two_stage_inverter_fall",
+      "description": "两级反相器，输入下降沿(1→0)，预期MP1和MN2为dominant",
+      "difficulty": "easy",
+      "expected_dominant_count": 2
+    },
+    {
+      "name": "nand2_both_rise",
+      "description": "2输入NAND门，A和B都从0→1(输出1→0)，预期MN1和MN2为dominant",
+      "difficulty": "medium",
+      "expected_dominant_count": 2
+    },
+    {
+      "name": "nand2_a_fall",
+      "description": "2输入NAND门，A从1→0(B保持1)，输出0→1，预期MP1为dominant",
+      "difficulty": "medium",
+      "expected_dominant_count": 1
+    },
+    {
+      "name": "nor2_both_fall",
+      "description": "2输入NOR门，A和B都从1→0(输出0→1)，预期MP1和MP2为dominant",
+      "difficulty": "medium",
+      "expected_dominant_count": 2
+    },
+    {
+      "name": "buffer_chain_4stage",
+      "description": "4级缓冲器链，输入上升沿，预期交替的MN/MP为dominant",
+      "difficulty": "medium",
+      "expected_dominant_count": 4
+    },
+    {
+      "name": "aoi21_ab_rise",
+      "description": "AOI21门，A和B从0→1(C=0)，输出1→0，预期MN1和MN2为dominant",
+      "difficulty": "hard",
+      "expected_dominant_count": 2
+    },
+    {
+      "name": "oai22_ac_rise",
+      "description": "OAI22门，A和C从0→1(B=D=0)，输出1→0，预期MN1和MN3为dominant",
+      "difficulty": "hard",
+      "expected_dominant_count": 2
+    },
+    {
+      "name": "transmission_gate",
+      "description": "传输门，输入上升沿，EN=1",
+      "difficulty": "hard",
+      "expected_dominant_count": 3
+    },
+    {
+      "name": "mux2_a_rise",
+      "description": "2选1MUX，A输入上升沿(S=0选择A)",
+      "difficulty": "hard",
+      "expected_dominant_count": 3
+    },
+    {
+      "name": "large_combinational",
+      "description": "大型组合逻辑电路，A和B从0→1",
+      "difficulty": "expert",
+      "expected_dominant_count": 4
+    }
+  ]
+}
